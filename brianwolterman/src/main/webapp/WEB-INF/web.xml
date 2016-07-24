@@ -6,15 +6,5 @@
 
     <display-name>Brian Wolterman</display-name>
     <description>Brian Wolterman dot Com</description>
-
-    <servlet>
-        <servlet-name>TestApiApplication</servlet-name>
-        <servlet-class>com.wolterman.brian.test.TestApiApplication</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>TestApiApplication</servlet-name>
-        <url-pattern>/v1/*</url-pattern>
-    </servlet-mapping>
-
+    
 </web-app>
